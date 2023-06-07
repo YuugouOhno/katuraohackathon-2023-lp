@@ -12,6 +12,15 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'katurao-green': '#7BA089',
+        'katurao-lightgreen': '#A5C393',
+        'katurao-creem': '#FFF9EA',
+        'katurao-black': '#7C635C',
+        'katurao-yellow': '#FDEFC9',
+        'katurao-red': '#C39493',
+        'katurao-brown': '#C4AD93',
+      }
     },
   },
   plugins: [],
