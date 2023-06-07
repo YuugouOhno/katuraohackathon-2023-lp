@@ -1,10 +1,17 @@
 export default function Message() {
     return (
-        <div className="">
-            <div>Message</div>
-            <div>葛尾村の消費活動をもっとワクワクするものへ。</div>
+        <div className="bg-katurao-yellow  w-screen">
+            <p className="text-white">Message</p>
             <div>
-                葛尾村にはコンビニが中央部に一軒しかない。買い物には損害まで車を走らせる必要がある。一方、村内では体験型牧場など、新たなサービスも生まれつつある、日々の買い物・新たな体験などの消費活動がもっと活発になれば、村内の生活も豊かになるのではないだろうか。
+            <p className="text-katurao-black">葛尾村の消費活動を</p>
+            <p className="text-katurao-black">もっとワクワクするものへ。</p>
+            </div>
+            <div className="text-katurao-black">
+                <p>葛尾村にはコンビニが中央部に一軒しかない。</p>
+                <p>買い物には損害まで車を走らせる必要がある。</p>
+                <p>一方、村内では体験型牧場など、新たなサービスも生まれつつある。</p>
+                <p>日々の買い物・新たな体験などの消費活動がもっと活発になれば、</p>
+                <p>村内の生活も豊かになるのではないだろうか。</p>
             </div>
         </div>
     )
