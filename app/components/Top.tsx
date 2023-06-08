@@ -1,9 +1,9 @@
 export default function Top() {
     return (
-        <div className="bg-katurao-creem w-full px-[15%]">
-            <p className="text-katurao-green">かつらお</p>
-            <p className="text-katurao-green">ハッカソン</p>
-            <p className="text-katurao-black">2023</p>
+        <div className="bg-katurao-creem w-full px-[15%] pt-32 pb-48 font-title font-black">
+            <p className="text-katurao-green text-8xl">かつらお</p>
+            <p className="text-katurao-green text-8xl">ハッカソン</p>
+            <p className="text-katurao-black text-8xl">2023</p>
         </div>
     )
 }

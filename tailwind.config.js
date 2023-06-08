@@ -22,6 +22,10 @@ module.exports = {
         'katurao-red': '#C39493',
         'katurao-brown': '#C4AD93',
         'katurao-gray': '#777777',
+      },
+      fontFamily: {
+        title: ['"Helvetica"'],
+        body: ['"YuGothic"']
       }
 
     },

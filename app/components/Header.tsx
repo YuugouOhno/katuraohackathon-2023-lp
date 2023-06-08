@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <div className="bg-katurao-green flex w-full h-16 justify-between items-center px-[15%]">
+        <div className="bg-katurao-green flex w-full h-16 justify-between items-center px-[15%] font-title font-bold">
             <div>
                 <p className="text-white text-xl">
                     #かつらおハッカソン
