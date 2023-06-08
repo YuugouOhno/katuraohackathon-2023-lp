@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className="bg-katurao-creem w-screen">
+        <div className="bg-katurao-creem w-full px-[15%]">
             <p className="text-katurao-green">About</p>
             <div className="text-katurao-black">
                 <p>テーマ</p>

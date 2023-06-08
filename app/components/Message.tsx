@@ -1,6 +1,6 @@
 export default function Message() {
     return (
-        <div className="bg-katurao-yellow  w-screen">
+        <div className="bg-katurao-yellow  w-full px-[15%]">
             <p className="text-white">Message</p>
             <div>
             <p className="text-katurao-black">葛尾村の消費活動を</p>
