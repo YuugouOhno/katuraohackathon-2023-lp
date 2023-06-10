@@ -17,62 +17,70 @@ export default function About() {
                     <p className="font-bold md:font-light text-sm md:text-xl">2023年9月4日-9月16日</p>
                 </div>
                 <div className="mb-10 md:mb-20">
-                    <div className="flex h-40 flex items-center">
-                        <div className="bg-katurao-red text-white font-bold font-title rounded-full w-40 h-40 text-center flex items-center justify-center">
-                            <div>
-                                <p className="mb-3">9月4日</p>
+                    <div className="flex h-28 md:h-40 flex items-center">
+                        <div className="bg-katurao-red text-white font-bold font-title rounded-full w-28 h-28 md:w-40 md:h-40 text-center flex items-center justify-center">
+                            <div className="font-bold text-sm md:text-xl">
+                                <p className="mb-1 md:mb-3">9月4日</p>
                                 <p>キックオフ</p>
                             </div>
                         </div>
-                        <div className="text-katurao-black ml-16">
+                        <div className="text-katurao-black ml-8 font-bold text-sm block md:hidden">
                             <p className="font-bold font-title mb-3">Step01</p>
-                            <p>規格と技術の両立の面白さを学ぶ</p>
+                            <p className="font-bold">規格と技術の両立の<br/>面白さを学ぶ</p>
+                        </div>
+                        <div className="text-katurao-black md:ml-16 font-bold text-sm md:text-xl hidden md:block">
+                            <p className="font-bold font-title mb-3">Step01</p>
+                            <p className="font-light">規格と技術の両立の面白さを学ぶ</p>
                         </div>
                     </div>
 
-                    <div className="h-12 w-[80px] border-r-4 border-katurao-black"></div>
+                    <div className="h-10 w-[56px] md:h-12 md:w-[80px] border-r-4 border-katurao-black"></div>
 
-                    <div className="flex h-40 flex items-center">
-                        <div className="bg-katurao-brown text-white font-bold font-title rounded-full w-40 h-40 text-center flex items-center justify-center">
-                            <div>
-                                <p className="mb-3">9月5日-14日</p>
+                    <div className="flex h-28 md:h-40 flex items-center">
+                        <div className="bg-katurao-brown text-white font-bold font-title rounded-full w-28 h-28 md:w-40 md:h-40 text-center flex items-center justify-center">
+                            <div className="font-bold text-sm md:text-xl">
+                                <p className="mb-1 md:mb-3">9月5日-14日</p>
                                 <p>オンライン講座</p>
                             </div>
                         </div>
-                        <div className="text-katurao-black ml-16">
+                        <div className="text-katurao-black ml-8 font-bold text-sm block md:hidden">
                             <p className="font-bold font-title mb-3">Step02</p>
-                            <p>規格と技術の両立の方法を知る</p>
+                            <p className="font-bold">規格と技術の両立の<br/>方法を知る</p>
+                        </div>
+                        <div className="text-katurao-black md:ml-16 font-bold text-sm md:text-xl hidden md:block">
+                            <p className="font-bold font-title mb-3">Step02</p>
+                            <p className="font-light">規格と技術の両立の方法を知る</p>
                         </div>
                     </div>
 
-                    <div className="h-12 w-[80px] border-r-4 border-katurao-black"></div>
+                    <div className="h-10 w-[56px] md:h-12 md:w-[80px] border-r-4 border-katurao-black"></div>
 
-                    <div className="flex h-40 flex items-center">
-                        <div className="bg-katurao-lightgreen text-white font-bold font-title rounded-full w-40 h-40 text-center flex items-center justify-center">
-                            <div>
-                                <p className="mb-3">9月13日-15日</p>
+                    <div className="flex h-28 md:h-40 flex items-center">
+                        <div className="bg-katurao-lightgreen text-white font-bold font-title rounded-full w-28 h-28 md:w-40 md:h-40 text-center flex items-center justify-center">
+                            <div className="font-bold text-sm md:text-xl">
+                                <p className="mb-1 md:mb-3">9月13日-15日</p>
                                 <p>開発合宿</p>
                             </div>
                         </div>
-                        <div className="text-katurao-black ml-16">
+                        <div className="text-katurao-black ml-8 md:ml-16 font-bold text-sm md:text-xl">
                             <p className="font-bold font-title mb-3">Step03</p>
-                            <p>規格を形にしてみる</p>
+                            <p className="font-bold md:font-light">規格を形にしてみる</p>
                         </div>
                     </div>
 
-                    <div className="h-12 w-[80px] border-r-4 border-katurao-black"></div>
+                    <div className="h-10 w-[56px] md:h-12 md:w-[80px] border-r-4 border-katurao-black"></div>
 
 
-                    <div className="flex h-40 flex items-center">
-                        <div className="bg-katurao-green text-white font-bold font-title rounded-full w-40 h-40 text-center flex items-center justify-center">
-                            <div>
-                                <p className="mb-3">9月16日</p>
+                    <div className="flex h-28 md:h-40 flex items-center">
+                        <div className="bg-katurao-green text-white font-bold font-title rounded-full w-28 h-28 md:w-40 md:h-40 text-center flex items-center justify-center">
+                            <div className="font-bold text-sm md:text-xl">
+                                <p className="mb-1 md:mb-3">9月16日</p>
                                 <p>最終発表会</p>
                             </div>
                         </div>
-                        <div className="text-katurao-black ml-16">
+                        <div className="text-katurao-black ml-8 md:ml-16 font-bold text-sm md:text-xl">
                             <p className="font-bold font-title mb-3">Step04</p>
-                            <p>共有する（仮）</p>
+                            <p className="font-bold md:font-light">共有する（仮）</p>
                         </div>
                     </div>
                 </div>
