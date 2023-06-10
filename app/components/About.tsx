@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className="bg-katurao-creem w-full px-[15%]">
+        <div className="bg-katurao-creem w-full px-[10%] md:px-[15%]">
             <p className="text-katurao-green text-title text-7xl font-bold my-24">About</p>
             <div className="px-[5%] text-xl">
                 <div className="text-katurao-black mb-20">
