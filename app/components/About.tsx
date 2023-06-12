@@ -25,7 +25,7 @@ export default function About() {
                         </div>
                         <div className="text-katurao-black ml-8 md:ml-16 font-bold text-sm md:text-xl">
                             <p className="font-bold font-title mb-3">Step01</p>
-                            <p className="font-bold">キックオフ＠都内</p>
+                            <p className="font-bold md:font-light">キックオフ＠都内</p>
                         </div>
                     </div>
 
@@ -39,7 +39,7 @@ export default function About() {
                         </div>
                         <div className="text-katurao-black ml-8 md:ml-16 font-bold text-sm md:text-xl">
                             <p className="font-bold font-title mb-3">Step02</p>
-                            <p className="font-light">オンライン講座＠都内</p>
+                            <p className="font-bold md:font-light">オンライン講座＠都内</p>
                         </div>
                     </div>
 

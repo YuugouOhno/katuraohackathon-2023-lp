@@ -8,7 +8,6 @@ export default function Message() {
             </div>
             <div className="text-katurao-black font-body font-bold md:font-light text-sm md:text-2xl mb-28">
                 <p className="mb-3">余田さんのメッセージが入る</p>
-                <a className="mb-3">https://url.yodasanno.message</a>
             </div>
         </div>
     )
