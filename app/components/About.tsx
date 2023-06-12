@@ -9,7 +9,7 @@ export default function About() {
                 </div>
                 <div className="text-katurao-black mb-10 md:mb-20">
                     <p className="font-extrabold font-title md:border-b md:border-katurao-black pb-2 md:mb-2">期待すること</p>
-                    <p className="mb-3 font-bold md:font-light text-sm md:text-xl">・消費活動を通じ人のつながりを醸成<br />
+                    <p className="mb-3 font-bold md:font-light text-sm md:text-xl">・人のつながりを醸成<br />
                         ・新しい生活様式の提案 など</p>
                 </div>
                 <div className="text-katurao-black mb-10 md:mb-20">
@@ -20,17 +20,12 @@ export default function About() {
                     <div className="flex h-28 md:h-40 flex items-center">
                         <div className="bg-katurao-red text-white font-bold font-title rounded-full w-28 h-28 md:w-40 md:h-40 text-center flex items-center justify-center">
                             <div className="font-bold text-sm md:text-xl">
-                                <p className="mb-1 md:mb-3">9月4日</p>
-                                <p>キックオフ</p>
+                                <p className="">9月4日</p>
                             </div>
                         </div>
-                        <div className="text-katurao-black ml-8 font-bold text-sm block md:hidden">
+                        <div className="text-katurao-black ml-8 md:ml-16 font-bold text-sm md:text-xl">
                             <p className="font-bold font-title mb-3">Step01</p>
-                            <p className="font-bold">規格と技術の両立の<br/>面白さを学ぶ</p>
-                        </div>
-                        <div className="text-katurao-black md:ml-16 font-bold text-sm md:text-xl hidden md:block">
-                            <p className="font-bold font-title mb-3">Step01</p>
-                            <p className="font-light">規格と技術の両立の面白さを学ぶ</p>
+                            <p className="font-bold">キックオフ＠都内</p>
                         </div>
                     </div>
 
@@ -39,17 +34,12 @@ export default function About() {
                     <div className="flex h-28 md:h-40 flex items-center">
                         <div className="bg-katurao-brown text-white font-bold font-title rounded-full w-28 h-28 md:w-40 md:h-40 text-center flex items-center justify-center">
                             <div className="font-bold text-sm md:text-xl">
-                                <p className="mb-1 md:mb-3">9月5日-14日</p>
-                                <p>オンライン講座</p>
+                                <p className="">9月5日-14日</p>
                             </div>
                         </div>
-                        <div className="text-katurao-black ml-8 font-bold text-sm block md:hidden">
+                        <div className="text-katurao-black ml-8 md:ml-16 font-bold text-sm md:text-xl">
                             <p className="font-bold font-title mb-3">Step02</p>
-                            <p className="font-bold">規格と技術の両立の<br/>方法を知る</p>
-                        </div>
-                        <div className="text-katurao-black md:ml-16 font-bold text-sm md:text-xl hidden md:block">
-                            <p className="font-bold font-title mb-3">Step02</p>
-                            <p className="font-light">規格と技術の両立の方法を知る</p>
+                            <p className="font-light">オンライン講座＠都内</p>
                         </div>
                     </div>
 
@@ -58,13 +48,12 @@ export default function About() {
                     <div className="flex h-28 md:h-40 flex items-center">
                         <div className="bg-katurao-lightgreen text-white font-bold font-title rounded-full w-28 h-28 md:w-40 md:h-40 text-center flex items-center justify-center">
                             <div className="font-bold text-sm md:text-xl">
-                                <p className="mb-1 md:mb-3">9月13日-15日</p>
-                                <p>開発合宿</p>
+                                <p className="">9月13日-15日</p>
                             </div>
                         </div>
                         <div className="text-katurao-black ml-8 md:ml-16 font-bold text-sm md:text-xl">
                             <p className="font-bold font-title mb-3">Step03</p>
-                            <p className="font-bold md:font-light">規格を形にしてみる</p>
+                            <p className="font-bold md:font-light">開発合宿＠かつらお村</p>
                         </div>
                     </div>
 
@@ -74,24 +63,18 @@ export default function About() {
                     <div className="flex h-28 md:h-40 flex items-center">
                         <div className="bg-katurao-green text-white font-bold font-title rounded-full w-28 h-28 md:w-40 md:h-40 text-center flex items-center justify-center">
                             <div className="font-bold text-sm md:text-xl">
-                                <p className="mb-1 md:mb-3">9月16日</p>
-                                <p>最終発表会</p>
+                                <p className="">9月16日</p>
                             </div>
                         </div>
                         <div className="text-katurao-black ml-8 md:ml-16 font-bold text-sm md:text-xl">
                             <p className="font-bold font-title mb-3">Step04</p>
-                            <p className="font-bold md:font-light">共有する（仮）</p>
+                            <p className="font-bold md:font-light">最終発表会＠かつらお村</p>
                         </div>
                     </div>
                 </div>
                 <div className="text-katurao-black mb-10 md:mb-20">
-                    <p className="font-extrabold font-title md:border-b md:border-katurao-black pb-2 md:mb-2">会場</p>
-                    <p className="font-bold md:font-light text-sm md:text-xl">葛尾村宿泊施設せせらぎ荘</p>
-                    <div className="h-40 w-full bg-white p-10 my-10">写真とか地図とか</div>
-                </div>
-                <div className="text-katurao-black mb-10 md:mb-20">
                     <p className="font-extrabold font-title md:border-b md:border-katurao-black pb-2 md:mb-2">定員</p>
-                    <p className="font-bold md:font-light text-sm md:text-xl">15名（5名×3チーム）<br />
+                    <p className="font-bold md:font-light text-sm md:text-xl">15名（3名×5チーム）<br />
                         ※応募者多数の場合は選考の可能性があります。</p>
                 </div>
                 <div className="text-katurao-black mb-10 md:mb-20">
@@ -100,24 +83,28 @@ export default function About() {
                         高専生(4年生以上)・大学生・大学院生。
                     </p>
                     <p className="font-bold md:font-light text-sm md:text-xl md:hidden block">
-                        ・原則、1チーム５名の参加となりますが、<br />
-                        5名に満たないチームでも応募可能です。<br />
+                        ・原則、1チーム3名の参加となりますが、<br />
+                        3名に満たないチームでも応募可能です。<br />
                         ・複数の高専、大学の学生から構成される<br />
                         チームでも応募できます。
                     </p>
                     <p className="font-bold md:font-light text-sm md:text-xl md:block hidden">
-                        ・原則、1チーム５名の参加となりますが、
-                        5名に満たないチームでも応募可能です。<br />
+                        ・原則、1チーム3名の参加となりますが、
+                        3名に満たないチームでも応募可能です。<br />
                         ・複数の高専、大学の学生から構成される
                         チームでも応募できます。
                     </p>
                 </div>
                 <div className="text-katurao-black mb-10 md:mb-20">
                     <p className="font-extrabold font-title md:border-b md:border-katurao-black pb-2 md:mb-2">参加費</p>
+                    <p className="font-bold md:font-light text-sm md:text-xl mb-5">
+                        無料
+                    </p>
                     <p className="font-bold md:font-light text-sm md:text-xl">
-                        なし。<br />
-                        ※交通費・食費は参加者負担となります。<br />
-                        宿泊費は実行委員会からの全額負担となります。</p>
+                        宿泊費全額補助あり<br />
+                        交通費最大8800円の補助あり<br />
+                        例:東京-郡山間で学割利用で往復15040円のうち、8800円の補助が可能<br />
+                    </p>
                 </div>
                 <div className="text-katurao-black mb-10 md:mb-20">
                     <p className="font-extrabold font-title md:border-b md:border-katurao-black pb-2 md:mb-2">申込締切</p>
@@ -132,9 +119,9 @@ export default function About() {
                 </div>
                 <div className="text-katurao-black mb-10 md:mb-20">
                     <p className="font-extrabold font-title border-b border-katurao-black pb-2 mb-2 text-5xl">協賛</p>
-                    <div>ロゴやらなんやら</div>
-                    <div>ロゴやらなんやら</div>
-                    <div>ロゴやらなんやら</div>
+                    <div>ロゴ 参加者への200字程度での応援メッセージ</div>
+                    <div>ロゴ 参加者への200字程度での応援メッセージ</div>
+                    <div>ロゴ 参加者への200字程度での応援メッセージ</div>
                 </div>
                 <div className="flex justify-center mb-10 md:mb-20">
                     <div className="bg-katurao-green text-center inline-block rounded-xl py-2 px-8">
