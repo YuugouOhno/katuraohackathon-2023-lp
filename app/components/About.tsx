@@ -34,7 +34,7 @@ export default function About() {
                     <div className="flex h-28 md:h-40 flex items-center">
                         <div className="bg-katurao-brown text-white font-bold font-title rounded-full w-28 h-28 md:w-40 md:h-40 text-center flex items-center justify-center">
                             <div className="font-bold text-sm md:text-xl">
-                                <p className="">9月5日-14日</p>
+                                <p className="">9月7日</p>
                             </div>
                         </div>
                         <div className="text-katurao-black ml-8 md:ml-16 font-bold text-sm md:text-xl">
@@ -116,26 +116,9 @@ export default function About() {
                 </div>
                 <div className="text-katurao-black mb-10 md:mb-20">
                     <p className="font-extrabold font-title border-b border-katurao-black pb-2 mb-2 text-5xl">表彰</p>
-                    <div className="mb-6">
-
-
-                        <p className="text-4xl font-bold font-title mb-2">WED賞</p>
-                        <p className="text-2xl font-bold font-title">対象</p>
-                        <p className="text-light">最もさわって楽しいものを作ったチーム</p>
-                        <p className="text-2xl font-bold font-title">賞金</p>
-                        <p className="text-light">シークレット（15万円相当のプレゼントを贈呈）</p>
-                        <p className="text-2xl font-bold font-title">副賞</p>
-                        <p className="text-light">CEOとのお食事会特別招待　and more</p>
-                    </div>
-
-                    <div className="">
-                        <p className="text-4xl font-bold font-title mb-2">スカラ賞</p>
-                        <p className="text-2xl font-bold font-title">対象</p>
-                        <p className="text-light">最もチャレンジをしたチーム</p>
-                        <p className="text-2xl font-bold font-title">賞金</p>
-                        <p className="text-light">３万円×人数分</p>
-                        <p className="text-2xl font-bold font-title">副賞</p>
-                        <p className="text-light">お食事会への特別招待</p>
+                    <div className="md:flex">
+                        <img src="./1.png" className="w-full md:w-1/2 h-auto" />
+                        <img src="./2.png" className="w-full md:w-1/2 h-auto"/>
                     </div>
                 </div>
                 <div className="text-katurao-black mb-10 md:mb-20">
