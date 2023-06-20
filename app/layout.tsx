@@ -10,8 +10,8 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <title>かつらおハッカソン</title>
-        <meta name="description" content="かつらおハッカソンの公式ページです。" />
+        <meta property="og:title" content="かつらおハッカソン" />
+        <meta property="og:description" content="かつらおハッカソンの公式ページです。" />
         <meta property="og:image" content="/thumbnail.png" />
         <meta property="og:image:secure_url" content="/thumbnail.png" />
         <meta property="og:image:width" content="1200" />
