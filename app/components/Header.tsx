@@ -8,7 +8,7 @@ export default function Header() {
             </div>
             <div className="bg-white rounded-md py-1 px-6 md:block hidden">
                 <p className="text-katurao-green text-lg">
-                    ご応募はこちら
+                    <a href="https://forms.gle/5mH9Z2X73W3rNNyU7" target="_blank">ご応募はこちら</a>
                 </p>
             </div>
         </div>

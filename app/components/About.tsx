@@ -161,7 +161,7 @@ export default function About() {
                 <div className="flex justify-center mb-10 md:mb-20">
                     <div className="bg-katurao-green text-center inline-block rounded-xl py-2 px-8">
                         <p className="text-white font-bold font-title text-2xl">
-                            ご応募はこちら
+                            <a href="https://forms.gle/5mH9Z2X73W3rNNyU7" target="_blank">ご応募はこちら</a>
                         </p>
                     </div>
                 </div>
