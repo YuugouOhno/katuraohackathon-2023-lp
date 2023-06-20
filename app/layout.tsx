@@ -1,5 +1,37 @@
 import './globals.css'
-import Head from 'next/head';
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
+
+const siteName= 'かつらおハッカソン';
+const description = 'かつらおハッカソンの公式ページです。';
+const url = 'https://katurao-hackathon-2023.vercel.app/';
+
+export const metadata = {
+  title: siteName,
+  description,
+  openGraph: {
+    title: siteName,
+    description,
+    url,
+    siteName,
+    locale: 'ja_JP',
+    type: 'website',
+  },
+  // twitter: {
+  //   card: 'summary_large_image',
+  //   title: siteName,
+  //   description,
+  //   site: '@サイト用アカウントのTwitterID',
+  //   creator: '@作者のTwitterID',
+  // },
+  // verification: {
+  //   google: 'サーチコンソールのやつ',
+  // },
+  alternates: {
+    canonical: url,
+  },
+}
 
 export default function RootLayout({
   children,
@@ -8,16 +40,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="かつらおハッカソン" />
-        <meta property="og:description" content="かつらおハッカソンの公式ページです。" />
-        <meta property="og:image" content="/thumbnail.png" />
-        <meta property="og:image:secure_url" content="/thumbnail.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-      </Head>
-      <body>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
