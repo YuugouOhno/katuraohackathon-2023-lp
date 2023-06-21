@@ -124,14 +124,14 @@ export default function About() {
                 <div className="text-katurao-black mb-10 md:mb-20">
                     <p className="font-extrabold font-title border-b border-katurao-black pb-2 mb-2 text-5xl">協賛</p>
                     <div className="mb-6">
-                        <img src="./wed.png" alt="WED株式会社様" />
+                        <img className="w-full" src="./wed.png" alt="WED株式会社様" />
                         <p>WED は「さわって楽しいものを作る。」を宣言し、累計 600 万 DL を誇るお金がもらえるお買い物アプリ「ONE」をはじめ、ワクワクする魔法体験を生み出しています。
                             15 歳で起業した CEO 山内を筆頭に、およそ 60 名のスペシャリストたちと社会現象を実装してきました。そして次なる現象を生み出すために、山内率いる WED が次世代を担う皆さんの個性と才能を発揮するインキュベーションの場を提供します。
                             私たちと一緒に、つくって、さわって楽しいものづくりをしましょう！
                         </p>
                     </div>
-                    <div>
-                        <img src="./scp.png" alt="株式会社スカラパートナーズ様" />
+                    <div className="mb-1">
+                        <img className="w-full" src="./scp.png" alt="株式会社スカラパートナーズ様" />
                         <p>震災を乗り越え、今年で村制100周年を迎えた葛尾村。
                             ITを駆使した新時代へと歩みを進めている この地でハッカソンが開催されます。
                             人と人、技術と発想、そして現在と未来。
