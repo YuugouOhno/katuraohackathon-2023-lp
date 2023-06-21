@@ -96,16 +96,24 @@ export default function About() {
                     </p>
                 </div>
                 <div className="text-katurao-black mb-10 md:mb-20">
-                    <p className="font-extrabold font-title md:border-b md:border-katurao-black pb-2 md:mb-2">参加費</p>
-                    <p className="font-bold md:font-light text-sm md:text-xl mb-5">
+                    <p className="font-extrabold font-title md:border-b md:border-katurao-black pb-2 md:mb-2">諸費用</p>
+                    <p className="text-sm md:text-xl mb-5">
+                        <span className="font-bold">・参加費<br /></span>
                         無料
                     </p>
-                    <p className="font-bold md:font-light text-sm md:text-xl">
-                        宿泊費全額補助あり<br />
-                        居住地によって交通費補助あり<br />
-                        例東京都→最大8000円　千葉県→9000円　神奈川県→10000円など<br />
-                        東京-郡山間で新幹線学割利用で往復15040円のうち、8000円の補助が可能
-
+                    <p className="text-sm md:text-xl mb-5">
+                        <span className="font-bold">・宿泊費<br /></span>
+                        全額補助あり
+                    </p>
+                    <p className="text-sm md:text-xl mb-5">
+                        <span className="font-bold">・交通費<br /></span>
+                        一部補助あり※居住地によって異なる
+                    </p>
+                    <p className="text-sm md:text-xl">
+                        （交通費補助上限金額例）<br />
+                        ・東京都→8000円<br />
+                        ・千葉県→9000円<br />
+                        ・神奈川県→1万円
                     </p>
                 </div>
                 <div className="text-katurao-black mb-10 md:mb-20">
@@ -118,7 +126,7 @@ export default function About() {
                     <p className="font-extrabold font-title border-b border-katurao-black pb-2 mb-2 text-5xl">表彰</p>
                     <div className="md:flex">
                         <img src="./1.png" className="w-full md:w-1/2 h-auto" />
-                        <img src="./2.png" className="w-full md:w-1/2 h-auto"/>
+                        <img src="./2.png" className="w-full md:w-1/2 h-auto" />
                     </div>
                 </div>
                 <div className="text-katurao-black mb-10 md:mb-20">
