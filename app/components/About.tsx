@@ -32,7 +32,7 @@ export default function About() {
                     <div className="h-10 w-[56px] md:h-12 md:w-[80px] border-r-4 border-katurao-black"></div>
 
                     <div className="flex h-28 md:h-40 flex items-center">
-                        <div className="bg-katurao-brown text-white font-bold font-title rounded-full w-28 h-28 md:w-40 md:h-40 text-center flex items-center justify-center">
+                        <div className="bg-katurao-brown text-white font-bold font-title rounded-full w-28 w-28 h-28 md:w-40 md:h-40 text-center flex items-center justify-center">
                             <div className="font-bold text-sm md:text-xl">
                                 <p className="">9月7日</p>
                             </div>
@@ -137,6 +137,13 @@ export default function About() {
                             15 歳で起業した CEO 山内を筆頭に、およそ 60 名のスペシャリストたちと社会現象を実装してきました。そして次なる現象を生み出すために、山内率いる WED が次世代を担う皆さんの個性と才能を発揮するインキュベーションの場を提供します。
                             私たちと一緒に、つくって、さわって楽しいものづくりをしましょう！
                         </p>
+                        <div className="flex justify-center my-6">
+                            <div className="text-right inline-block rounded-xl py-1 px-4 border-2 border-katurao-black">
+                                <p className="text-katurao-red font-bold font-title text-xl">
+                                    <a href="https://wed.fyi/" target="_blank">WEDについて</a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div className="mb-1">
                         <img className="w-full" src="./scp.png" alt="株式会社スカラパートナーズ様" />
@@ -146,6 +153,13 @@ export default function About() {
                             これらをつなぎ合わせ、皆さんが「エンジニア」にとどまらず、広い視野を持ち新たな価値を創造する「イノベーター」へと成長していくことを、私たちは全力でサポートします。
                             新たな「つながり」を創り出すこの旅を通じて、葛尾村の未来を一緒に創り上げましょう。
                         </p>
+                        <div className="flex justify-center my-6">
+                            <div className="text-right inline-block rounded-xl py-1 px-4 border-2 border-katurao-black">
+                                <p className="text-katurao-red font-bold font-title">
+                                    <a href="https://scala-partners.com/" target="_blank">スカラパートナーズについて</a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
